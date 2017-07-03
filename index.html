@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pasapalabra HTML-CSS-JS</title>
+	<link rel="stylesheet" href="styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Magra" rel="stylesheet">
+</head>
+<body>
+	<div class="formPasapalabra">
+
+		<div class="title">
+			<h1>Pasapalabra</h1>
+		</div>
+
+		<div class="timer">
+			<section id="time"></section>
+		</div>
+
+		<div class="question">
+			<p id="text"></p>
+
+			<input id="answer" placeholder="Enter your answer" type="string" onkeypress="validar(event)" /><br>
+			<button onclick="aceptar()">ACEPTAR</button>
+			<button onclick="pasapalabra()">PASAPALABRA</button><br><br>
+
+			<button onclick="start()">START</button>
+			<button onclick="stop()">STOP</button><br><br>
+
+			<b><p id="result"></p></b>
+
+		</div>
+
+		<div class="correct">
+			<div id="A" class="letters">A</div>
+			<div id="B" class="letters">B</div>
+			<div id="C" class="letters">C</div>
+			<div id="D" class="letters">D</div>
+			<div id="E" class="letters">E</div>
+			<div id="F" class="letters">F</div>
+			<div id="G" class="letters">G</div>
+			<div id="H" class="letters">H</div>
+			<div id="I" class="letters">I</div>
+			<div id="J" class="letters">J</div>
+			<div id="K" class="letters">K</div>
+			<div id="L" class="letters">L</div>
+			<div id="M" class="letters">M</div>
+			<div id="N" class="letters">N</div>
+			<div id="Ñ" class="letters">Ñ</div>
+			<div id="O" class="letters">O</div>
+			<div id="P" class="letters">P</div>
+			<div id="Q" class="letters">Q</div>
+			<div id="R" class="letters">R</div>
+			<div id="S" class="letters">S</div>
+			<div id="T" class="letters">T</div>
+			<div id="U" class="letters">U</div>
+			<div id="V" class="letters">V</div>
+			<div id="W" class="letters">W</div>
+			<div id="X" class="letters">X</div>
+			<div id="Y" class="letters">Y</div>
+			<div id="Z" class="letters">Z</div>
+		</div>
+		
+	</div>
+
+
+	<script src="app/app.js"></script>
+</body>
+</html>
